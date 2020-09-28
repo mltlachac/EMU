@@ -1,0 +1,11 @@
+﻿modality,target_type,split,feature_selection,cross_validation,sampling,model,num_features,auc,f1,accuracy,precision,sensitivity,specificity,true_positive,false_positive,true_negative,false_negative
+emu_audio_open_uncleaned_gender,phq,10,etc,loo,regular_oversampling,kNN3,1,0.527116402,0.518518519,0.527272727,0.518518519,0.518518519,0.535714286,14,13,15,13
+emu_audio_open_uncleaned_gender,phq,10,etc,loo,regular_oversampling,kNN3,2,0.490079365,0.461538462,0.490909091,0.48,0.444444444,0.535714286,12,13,15,15
+emu_audio_open_uncleaned_gender,phq,10,etc,loo,regular_oversampling,kNN3,3,0.509259259,0.509090909,0.509090909,0.5,0.518518519,0.5,14,14,14,13
+emu_audio_open_uncleaned_gender,phq,10,etc,loo,regular_oversampling,kNN3,4,0.455026455,0.464285714,0.454545455,0.448275862,0.481481481,0.428571429,13,16,12,14
+emu_audio_open_uncleaned_gender,phq,10,etc,loo,regular_oversampling,kNN3,5,0.528439153,0.551724138,0.527272727,0.516129032,0.592592593,0.464285714,16,15,13,11
+emu_audio_open_uncleaned_gender,phq,10,etc,loo,regular_oversampling,kNN3,6,0.601190476,0.620689655,0.6,0.580645161,0.666666667,0.535714286,18,13,15,9
+emu_audio_open_uncleaned_gender,phq,10,etc,loo,regular_oversampling,kNN3,7,0.617724868,0.603773585,0.618181818,0.615384615,0.592592593,0.642857143,16,10,18,11
+emu_audio_open_uncleaned_gender,phq,10,etc,loo,regular_oversampling,kNN3,8,0.691137566,0.690909091,0.690909091,0.678571429,0.703703704,0.678571429,19,9,19,8
+emu_audio_open_uncleaned_gender,phq,10,etc,loo,regular_oversampling,kNN3,9,0.599867725,0.592592593,0.6,0.592592593,0.592592593,0.607142857,16,11,17,11
+emu_audio_open_uncleaned_gender,phq,10,etc,loo,regular_oversampling,kNN3,10,0.581349206,0.566037736,0.581818182,0.576923077,0.555555556,0.607142857,15,11,17,12

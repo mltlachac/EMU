@@ -1,0 +1,18 @@
+[
+  [
+    "pcm_fftMag_mfcc_sma_de[4]_minPos",
+    "pcm_fftMag_mfcc_sma_de[12]_linregc2"
+  ],
+  [
+    "pcm_fftMag_mfcc_sma[12]_minPos",
+    "lspFreq_sma[3]_upleveltime90",
+    "lspFreq_sma[5]_iqr1-3",
+    "pcm_fftMag_mfcc_sma_de[4]_minPos",
+    "pcm_fftMag_mfcc_sma_de[12]_linregc2",
+    "pcm_fftMag_mfcc_sma_de[14]_upleveltime75",
+    "pcm_fftMag_mfcc_sma_de[14]_upleveltime90",
+    "logMelFreqBand_sma_de[3]_linregerrA",
+    "logMelFreqBand_sma_de[5]_percentile99.0",
+    "lspFreq_sma_de[6]_maxPos"
+  ]
+]

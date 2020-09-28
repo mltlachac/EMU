@@ -1,0 +1,61 @@
+Traceback (most recent call last):
+  File "run_models.py", line 536, in <module>
+    main()
+  File "run_models.py", line 409, in main
+    run_models(train_data, train_label, test_data, test_label, train_index, test_index, num_f, cnames, fnames, random_state, temp_num)
+  File "run_models.py", line 225, in run_models
+    train_data, test_data = scale_feature_select(train_data, train_label, test_data, test_label, num_f, cnames, fnames, random_state)
+  File "run_models.py", line 179, in scale_feature_select
+    pca = pca.fit(train_data)
+  File "/home/jlovering/emu/lib/python3.7/site-packages/sklearn/decomposition/_pca.py", line 351, in fit
+    self._fit(X)
+  File "/home/jlovering/emu/lib/python3.7/site-packages/sklearn/decomposition/_pca.py", line 423, in _fit
+    return self._fit_full(X, n_components)
+  File "/home/jlovering/emu/lib/python3.7/site-packages/sklearn/decomposition/_pca.py", line 442, in _fit_full
+    % (n_components, min(n_samples, n_features)))
+ValueError: n_components=6 must be between 0 and min(n_samples, n_features)=5 with svd_solver='full'
+Traceback (most recent call last):
+  File "run_models.py", line 536, in <module>
+    main()
+  File "run_models.py", line 409, in main
+    run_models(train_data, train_label, test_data, test_label, train_index, test_index, num_f, cnames, fnames, random_state, temp_num)
+  File "run_models.py", line 225, in run_models
+    train_data, test_data = scale_feature_select(train_data, train_label, test_data, test_label, num_f, cnames, fnames, random_state)
+  File "run_models.py", line 179, in scale_feature_select
+    pca = pca.fit(train_data)
+  File "/home/jlovering/emu/lib/python3.7/site-packages/sklearn/decomposition/_pca.py", line 351, in fit
+    self._fit(X)
+  File "/home/jlovering/emu/lib/python3.7/site-packages/sklearn/decomposition/_pca.py", line 423, in _fit
+    return self._fit_full(X, n_components)
+  File "/home/jlovering/emu/lib/python3.7/site-packages/sklearn/decomposition/_pca.py", line 442, in _fit_full
+    % (n_components, min(n_samples, n_features)))
+ValueError: n_components=6 must be between 0 and min(n_samples, n_features)=5 with svd_solver='full'
+Traceback (most recent call last):
+  File "run_models.py", line 536, in <module>
+    main()
+  File "run_models.py", line 409, in main
+    run_models(train_data, train_label, test_data, test_label, train_index, test_index, num_f, cnames, fnames, random_state, temp_num)
+  File "run_models.py", line 225, in run_models
+    train_data, test_data = scale_feature_select(train_data, train_label, test_data, test_label, num_f, cnames, fnames, random_state)
+  File "run_models.py", line 193, in scale_feature_select
+    chi = chi.fit(train_data, train_label)
+  File "/home/jlovering/emu/lib/python3.7/site-packages/sklearn/feature_selection/_univariate_selection.py", line 352, in fit
+    self._check_params(X, y)
+  File "/home/jlovering/emu/lib/python3.7/site-packages/sklearn/feature_selection/_univariate_selection.py", line 525, in _check_params
+    % (X.shape[1], self.k))
+ValueError: k should be >=0, <= n_features = 5; got 6. Use k='all' to return all features.
+Traceback (most recent call last):
+  File "run_models.py", line 536, in <module>
+    main()
+  File "run_models.py", line 409, in main
+    run_models(train_data, train_label, test_data, test_label, train_index, test_index, num_f, cnames, fnames, random_state, temp_num)
+  File "run_models.py", line 225, in run_models
+    train_data, test_data = scale_feature_select(train_data, train_label, test_data, test_label, num_f, cnames, fnames, random_state)
+  File "run_models.py", line 193, in scale_feature_select
+    chi = chi.fit(train_data, train_label)
+  File "/home/jlovering/emu/lib/python3.7/site-packages/sklearn/feature_selection/_univariate_selection.py", line 352, in fit
+    self._check_params(X, y)
+  File "/home/jlovering/emu/lib/python3.7/site-packages/sklearn/feature_selection/_univariate_selection.py", line 525, in _check_params
+    % (X.shape[1], self.k))
+ValueError: k should be >=0, <= n_features = 5; got 6. Use k='all' to return all features.
+slurmstepd: error: *** JOB 1142713 ON compute-0-37 CANCELLED AT 2020-08-04T21:32:42 ***

@@ -1,0 +1,42 @@
+Traceback (most recent call last):
+  File "run_models.py", line 488, in <module>
+    main()
+  File "run_models.py", line 361, in main
+    run_models(train_data, train_label, test_data, test_label, train_index, test_index, num_f, cnames, fnames, random_state, oppo_target, oppo_target_name, temp_num,)
+  File "run_models.py", line 192, in run_models
+    featureSubset, featureSubset_labels = random_upsample(train_data)
+  File "run_models.py", line 110, in random_upsample
+    train_data['target'])
+  File "/home/jlovering/emu/lib/python3.7/site-packages/imblearn/base.py", line 80, in fit_resample
+    self.sampling_strategy, y, self._sampling_type
+  File "/home/jlovering/emu/lib/python3.7/site-packages/imblearn/utils/_validation.py", line 533, in check_sampling_strategy
+    " Got {} class instead".format(np.unique(y).size)
+ValueError: The target 'y' needs to have more than 1 class. Got 1 class instead
+Traceback (most recent call last):
+  File "run_models.py", line 488, in <module>
+    main()
+  File "run_models.py", line 361, in main
+    run_models(train_data, train_label, test_data, test_label, train_index, test_index, num_f, cnames, fnames, random_state, oppo_target, oppo_target_name, temp_num,)
+  File "run_models.py", line 192, in run_models
+    featureSubset, featureSubset_labels = random_upsample(train_data)
+  File "run_models.py", line 110, in random_upsample
+    train_data['target'])
+  File "/home/jlovering/emu/lib/python3.7/site-packages/imblearn/base.py", line 80, in fit_resample
+    self.sampling_strategy, y, self._sampling_type
+  File "/home/jlovering/emu/lib/python3.7/site-packages/imblearn/utils/_validation.py", line 533, in check_sampling_strategy
+    " Got {} class instead".format(np.unique(y).size)
+ValueError: The target 'y' needs to have more than 1 class. Got 1 class instead
+Traceback (most recent call last):
+  File "run_models.py", line 488, in <module>
+    main()
+  File "run_models.py", line 361, in main
+    run_models(train_data, train_label, test_data, test_label, train_index, test_index, num_f, cnames, fnames, random_state, oppo_target, oppo_target_name, temp_num,)
+  File "run_models.py", line 192, in run_models
+    featureSubset, featureSubset_labels = random_upsample(train_data)
+  File "run_models.py", line 110, in random_upsample
+    train_data['target'])
+  File "/home/jlovering/emu/lib/python3.7/site-packages/imblearn/base.py", line 80, in fit_resample
+    self.sampling_strategy, y, self._sampling_type
+  File "/home/jlovering/emu/lib/python3.7/site-packages/imblearn/utils/_validation.py", line 533, in check_sampling_strategy
+    " Got {} class instead".format(np.unique(y).size)
+ValueError: The target 'y' needs to have more than 1 class. Got 1 class instead

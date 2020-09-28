@@ -1,0 +1,18 @@
+[
+  [
+    "lspFreq_sma[7]_maxPos",
+    "jitterLocal_sma_de_maxPos"
+  ],
+  [
+    "logMelFreqBand_sma[0]_maxPos",
+    "lspFreq_sma[0]_upleveltime75",
+    "lspFreq_sma[5]_maxPos",
+    "lspFreq_sma[6]_maxPos",
+    "lspFreq_sma[7]_maxPos",
+    "F0finEnv_sma_percentile1.0",
+    "logMelFreqBand_sma_de[4]_quartile1",
+    "jitterLocal_sma_maxPos",
+    "jitterLocal_sma_de_maxPos",
+    "jitterLocal_sma_de_minPos"
+  ]
+]

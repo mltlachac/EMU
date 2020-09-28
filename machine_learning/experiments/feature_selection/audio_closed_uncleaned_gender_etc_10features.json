@@ -1,0 +1,18 @@
+[
+  [
+    "logMelFreqBand_sma_de[4]_iqr1-3",
+    "jitterLocal_sma_maxPos"
+  ],
+  [
+    "pcm_fftMag_mfcc_sma[11]_upleveltime75",
+    "lspFreq_sma[6]_maxPos",
+    "lspFreq_sma[7]_maxPos",
+    "pcm_loudness_sma_de_maxPos",
+    "logMelFreqBand_sma_de[3]_iqr1-2",
+    "logMelFreqBand_sma_de[3]_iqr2-3",
+    "logMelFreqBand_sma_de[4]_iqr2-3",
+    "logMelFreqBand_sma_de[4]_iqr1-3",
+    "jitterLocal_sma_maxPos",
+    "jitterLocal_sma_de_maxPos"
+  ]
+]

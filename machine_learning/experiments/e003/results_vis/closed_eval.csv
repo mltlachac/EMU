@@ -1,0 +1,11 @@
+﻿modality,target_type,split,feature_selection,cross_validation,sampling,model,num_features,auc,f1,accuracy,precision,sensitivity,specificity,true_positive,false_positive,true_negative,false_negative
+emu_audio_closed_uncleaned_gender,phq,10,chi2,loo,regular_oversampling,SVC1,1,0.376512097,0.518518519,0.380952381,0.428571429,0.65625,0.096774194,21,28,3,11
+emu_audio_closed_uncleaned_gender,phq,10,chi2,loo,regular_oversampling,SVC1,2,0.698084677,0.707692308,0.698412698,0.696969697,0.71875,0.677419355,23,10,21,9
+emu_audio_closed_uncleaned_gender,phq,10,chi2,loo,regular_oversampling,SVC1,3,0.729334677,0.746268657,0.73015873,0.714285714,0.78125,0.677419355,25,10,21,7
+emu_audio_closed_uncleaned_gender,phq,10,chi2,loo,regular_oversampling,SVC1,4,0.697076613,0.724637681,0.698412698,0.675675676,0.78125,0.612903226,25,12,19,7
+emu_audio_closed_uncleaned_gender,phq,10,chi2,loo,regular_oversampling,SVC1,5,0.697076613,0.724637681,0.698412698,0.675675676,0.78125,0.612903226,25,12,19,7
+emu_audio_closed_uncleaned_gender,phq,10,chi2,loo,regular_oversampling,SVC1,6,0.680947581,0.714285714,0.682539683,0.657894737,0.78125,0.580645161,25,13,18,7
+emu_audio_closed_uncleaned_gender,phq,10,chi2,loo,regular_oversampling,SVC1,7,0.696572581,0.732394366,0.698412698,0.666666667,0.8125,0.580645161,26,13,18,6
+emu_audio_closed_uncleaned_gender,phq,10,chi2,loo,regular_oversampling,SVC1,8,0.664818548,0.704225352,0.666666667,0.641025641,0.78125,0.548387097,25,14,17,7
+emu_audio_closed_uncleaned_gender,phq,10,chi2,loo,regular_oversampling,SVC1,9,0.634072581,0.656716418,0.634920635,0.628571429,0.6875,0.580645161,22,13,18,10
+emu_audio_closed_uncleaned_gender,phq,10,chi2,loo,regular_oversampling,SVC1,10,0.634576613,0.646153846,0.634920635,0.636363636,0.65625,0.612903226,21,12,19,11

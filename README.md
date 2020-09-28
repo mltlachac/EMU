@@ -1,11 +1,10 @@
-# authors: ML Tlachac, Joshua Lovering, 
-# paper title: 'EMU: Early Mental Health Uncovering' 
-# paper accessible at: 
-# github: https://github.com/mltlachac/EMU
+# 'EMU: Early Mental Health Uncovering' 
+
+For updated information about this research, visit https://emutivo.wpi.edu/
 
 Welcome to the repo for the EMU paper.
 
-install the required python packages for the programs in this repo.
+To install the required python packages for the programs in this repo:
 1. change working directory to the repo
 2. pip install requirements.txt
 

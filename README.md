@@ -10,17 +10,6 @@ To install the required python packages for the programs in this repo:
 
 ## Contents:
 
-- /data_visualization
-    - plot_feature_selection.py
-        - output into /data_visualization/feature_selection
-        - ...pca_weights.csv
-            - Principal Component Analysis weights for selected features
-        - ...var_PCA.csv
-            - Variance distribution across selected features
-        - ....json
-            - name of selected features
-    - TODO INSERT CORRELATION DESCRIPTION
-
 - /EMU_data
     - /EMU_data/audio_raw
         - Raw .WAV files for structured and unstructured audio
@@ -30,7 +19,20 @@ To install the required python packages for the programs in this repo:
         - both unstructured and structured
         - both cleaned and uncleaned
             - cleaning is based on the manual review of each audio file to remove illegitimate responses.
-            
+
+- /data_visualization
+    - plot_feature_selection.py
+        - generates feature selection files
+        - output into /data_visualization/feature_selection
+    - /data_visualization/feature_selection
+        - ...pca_weights.csv
+            - Principal Component Analysis weights for selected features
+        - ...var_PCA.csv
+            - Variance distribution across selected features
+        - ....json
+            - name of selected features
+    - TODO INSERT CORRELATION DESCRIPTION
+  
 - /audio_experiments
     - this directory houses feature extraction and machine learning experiments.
     - reference /audio_experiments/README.md for more information

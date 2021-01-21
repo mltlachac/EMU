@@ -89,7 +89,7 @@ def plot_pca_variance(var, num_f):
     plt.ylabel("Variance", fontsize = 12)
     plt.xlabel("Principal Component", fontsize = 12)
     plt.xticks(x_ticks)
-    plt.savefig("machine_learning/experiments/feature_selection/" + args.modality + '_' + str(num_f) + "feature_" + args.target_type + "_var_PCA.png", bbox_inches = "tight")
+    plt.savefig("data_visualization/feature_selection/" + args.modality + '_' + str(num_f) + "feature_" + args.target_type + "_var_PCA.png", bbox_inches = "tight")
     plt.close()
 # plot scatter of two selected features
 def plot_features(data, feature_name='n/a'):
@@ -119,7 +119,7 @@ def plot_features(data, feature_name='n/a'):
     plt.legend()
     plt.xticks([], [])
     plt.yticks([], [])
-    plt.savefig("machine_learning/experiments/feature_selection/" + args.modality + "_" + args.feature_selection + "_" + args.target_type + "_scatter.png", bbox_inches = "tight")
+    plt.savefig("data_visualization/feature_selection/" + args.modality + "_" + args.feature_selection + "_" + args.target_type + "_scatter.png", bbox_inches = "tight")
     plt.close()
 # scale the data and run feature selection
 def scale_feature_select(num_f, plot, cnames, random_state, data, label):
@@ -133,7 +133,7 @@ def scale_feature_select(num_f, plot, cnames, random_state, data, label):
         data = pd.DataFrame(X_pca).assign(target = label)
 
         pca_weights = pd.DataFrame(pca.components_, columns=cnames[1:-3]).transpose()
-        pca_weights.to_csv('machine_learning/experiments/feature_selection/' + args.modality + '_' + str(num_f) + 'features' + "_" + args.target_type + '_pca_weights.csv')
+        pca_weights.to_csv('data_visualization/feature_selection/' + args.modality + '_' + str(num_f) + 'features' + "_" + args.target_type + '_pca_weights.csv')
         
         if plot == 'var':
             var = pca.explained_variance_ratio_
@@ -161,7 +161,7 @@ def scale_feature_select(num_f, plot, cnames, random_state, data, label):
         features_list.append(feature_name)
     
     if args.feature_selection == 'chi2' or args.feature_selection == 'etc':
-        with open('machine_learning/experiments/feature_selection/' + args.modality + "_" + args.feature_selection + '_' + str(num_f) + 'features_' + args.target_type + '.json', 'w') as jf:
+        with open('data_visualization/feature_selection/' + args.modality + "_" + args.feature_selection + '_' + str(num_f) + 'features_' + args.target_type + '.json', 'w') as jf:
             json.dump(features_list, jf, indent=2)
         if plot == 'scatter':
             plot_features(data, feature_name)
@@ -217,6 +217,7 @@ def main():
     # scale_feature_select(num_features, "scatter", cnames, random_state, featureSubsetS, target)
     # num_features = 10
     # scale_feature_select(num_features, "var", cnames, random_state, featureSubsetS, target)
+    
 # Initialization
 if __name__ == "__main__":
     args = parser().parse_args()

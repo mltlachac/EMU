@@ -1,0 +1,18 @@
+[
+  [
+    "pcm_fftMag_mfcc_sma_de[4]_minPos",
+    "pcm_fftMag_mfcc_sma_de[4]_upleveltime75"
+  ],
+  [
+    "pcm_fftMag_mfcc_sma[4]_minPos",
+    "pcm_fftMag_mfcc_sma[13]_quartile2",
+    "pcm_fftMag_mfcc_sma_de[4]_minPos",
+    "pcm_fftMag_mfcc_sma_de[4]_skewness",
+    "pcm_fftMag_mfcc_sma_de[4]_upleveltime75",
+    "pcm_fftMag_mfcc_sma_de[11]_upleveltime75",
+    "pcm_fftMag_mfcc_sma_de[14]_upleveltime75",
+    "logMelFreqBand_sma_de[5]_stddev",
+    "lspFreq_sma_de[2]_minPos",
+    "shimmerLocal_sma_skewness"
+  ]
+]

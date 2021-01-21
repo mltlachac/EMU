@@ -1,0 +1,18 @@
+[
+  [
+    "pcm_fftMag_mfcc_sma[8]_quartile3",
+    "jitterLocal_sma_de_maxPos"
+  ],
+  [
+    "pcm_fftMag_mfcc_sma[1]_percentile99.0",
+    "pcm_fftMag_mfcc_sma[8]_quartile3",
+    "pcm_fftMag_mfcc_sma[13]_linregc2",
+    "pcm_fftMag_mfcc_sma[14]_linregc2",
+    "logMelFreqBand_sma[3]_iqr1-3",
+    "lspFreq_sma[4]_minPos",
+    "lspFreq_sma_de[4]_linregerrA",
+    "lspFreq_sma_de[4]_quartile3",
+    "jitterLocal_sma_maxPos",
+    "jitterLocal_sma_de_maxPos"
+  ]
+]

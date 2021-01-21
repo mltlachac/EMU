@@ -1,0 +1,18 @@
+[
+  [
+    "pcm_fftMag_mfcc_sma_de[0]_maxPos",
+    "jitterDDP_sma_upleveltime90"
+  ],
+  [
+    "pcm_fftMag_mfcc_sma_de[0]_maxPos",
+    "pcm_fftMag_mfcc_sma_de[4]_upleveltime75",
+    "pcm_fftMag_mfcc_sma_de[5]_minPos",
+    "logMelFreqBand_sma_de[7]_maxPos",
+    "F0final_sma_upleveltime90",
+    "jitterLocal_sma_upleveltime75",
+    "jitterLocal_sma_upleveltime90",
+    "jitterDDP_sma_upleveltime75",
+    "jitterDDP_sma_upleveltime90",
+    "jitterDDP_sma_de_upleveltime90"
+  ]
+]

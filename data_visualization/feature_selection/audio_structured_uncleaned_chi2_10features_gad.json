@@ -1,0 +1,18 @@
+[
+  [
+    "F0finEnv_sma_percentile1.0",
+    "jitterLocal_sma_de_maxPos"
+  ],
+  [
+    "pcm_loudness_sma_minPos",
+    "logMelFreqBand_sma[0]_maxPos",
+    "lspFreq_sma[3]_percentile1.0",
+    "lspFreq_sma[6]_maxPos",
+    "lspFreq_sma[7]_maxPos",
+    "F0finEnv_sma_percentile1.0",
+    "F0final_sma_maxPos",
+    "jitterLocal_sma_maxPos",
+    "F0final_sma_de_maxPos",
+    "jitterLocal_sma_de_maxPos"
+  ]
+]

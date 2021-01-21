@@ -8,7 +8,7 @@ To install the required python packages for the programs in this repo:
 1. change working directory to /EMU
 2. pip install -r requirements.txt
 
-# Contents:
+## Contents:
 
 - /data_visualization
     - plot_feature_selection.py

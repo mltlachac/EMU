@@ -5,7 +5,7 @@ For updated information about this research, visit https://emutivo.wpi.edu/
 Welcome to the repo for the EMU paper.
 
 To install the required python packages for the programs in this repo:
-1. change working directory to the /EMU
+1. change working directory to /EMU
 2. pip install -r requirements.txt
 
 # Contents:

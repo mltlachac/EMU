@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "run_models.py", line 488, in <module>
-    main()
-  File "run_models.py", line 434, in main
-    precision = TP / (TP + FP)
-ZeroDivisionError: division by zero

@@ -56,9 +56,5 @@ Note: For some experiements, the opposite target was added as a feature after fe
     Target: PHQ-9 Score, Gad-7 Score
     Note: Only includes data from individuals who also submitted audio
 
-- e007
-    Data: EMU | Cleaned, Unstructured
-    Features: Text Features from Transcript + Gender
-    Target: PHQ-9 Score, PHQ Question-9, Gad-7 Score
     
 ResultsAudioTranscript folder contains results for the experiments where the models could use both audio and transcript features.

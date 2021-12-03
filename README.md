@@ -1,8 +1,24 @@
-# 'EMU: Early Mental Health Uncovering' 
+# 'EMU: Early Mental Health Uncovering Framework and Approach' 
+
+Regarding the paper: “© 2021 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works.”
+
+If you use the code, data, visualizations, or paper from this repository, cite:
+
+ML Tlachac, Ermal Toto, Joshua Lovering, Rimsha Kayastha, Nina Taurich, Elke Rundensteiner, "EMU: Early Mental Health UncoveringFramework and Dataset", 20th IEEE International Conference of Machine Learning Applications (ICMLA) Special Session Machine 
+Learning in Health, 2021
+
+```
+@inproceedings{Tlachac2021EMU,
+  title={EMU: Early Mental Health UncoveringFramework and Dataset},
+  author={M. L. Tlachac and Ermal Toto and Joshua Lovering and Rimsha Kayastha and Nina Taurich and Elke Rundensteiner},
+  booktitle={20th IEEE International Conference of Machine Learning Applications (ICMLA) Special Session Machine 
+Learning in Health},
+  year={2021}}
+```
 
 For updated information about this research, visit https://emutivo.wpi.edu/
 
-Welcome to the repo for the EMU paper.
+Welcome to the repository for the EMU paper.
 
 To install the required python packages for the programs in this repo:
 1. change working directory to /EMU

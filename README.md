@@ -1,5 +1,7 @@
 # 'EMU: Early Mental Health Uncovering' 
 
+The paper is available at https://ieeexplore.ieee.org/document/9680143
+
 Regarding the paper: “© 2021 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works.”
 
 If you use the code, data, visualizations, or paper from this repository, cite:

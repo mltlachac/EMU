@@ -6,8 +6,7 @@ Regarding the paper: “© 2021 IEEE. Personal use of this material is permitted
 
 If you use the code, data, visualizations, or paper from this repository, cite:
 
-ML Tlachac, Ermal Toto, Joshua Lovering, Rimsha Kayastha, Nina Taurich, Elke Rundensteiner, "EMU: Early Mental Health Uncovering Framework and Dataset", 20th IEEE International Conference of Machine Learning Applications (ICMLA) Special Session Machine 
-Learning in Health, 2021
+ML Tlachac, Ermal Toto, Joshua Lovering, Rimsha Kayastha, Nina Taurich, Elke Rundensteiner, "EMU: Early Mental Health Uncovering Framework and Dataset", 20th IEEE International Conference of Machine Learning Applications (ICMLA) Special Session Machine Learning in Health, 2021 
 
 ```
 @inproceedings{Tlachac2021EMU,
@@ -17,6 +16,21 @@ Learning in Health, 2021
 Learning in Health},
   year={2021}}
 ```
+
+ML Tlachac, Ricardo Flores, Ermal Toto, Elke Rundensteiner, "Early mental health uncovering with short scripted and unscripted voice recordings", Deep Learning Applications, Volume 4, pp 79-110, Springer, 2022
+
+```
+@incollection{tlachac2022early,
+  title={Early mental health uncovering with short scripted and unscripted voice recordings},
+  author={Tlachac, ML and Flores, Ricardo and Toto, Ermal and Rundensteiner, Elke},
+  booktitle={Deep Learning Applications, Volume 4},
+  pages={79--110},
+  year={2022},
+  publisher={Springer}
+}
+```
+
+To access the StudentSADD data, application instructions are available at https://emutivo.wpi.edu/index.php/data/
 
 For updated information about this research, visit https://emutivo.wpi.edu/
 
